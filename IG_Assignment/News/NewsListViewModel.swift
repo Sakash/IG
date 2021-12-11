@@ -10,9 +10,12 @@ protocol NewsListViewModelDelegate: AnyObject {
 
 import Foundation
 
-class NewsListViewModel {    
-    init(viewModelDelegate: NewsListViewModelDelegate ) {
+class NewsListViewModel {
 
+    var networkManager: NetworkManager!
+
+    init(viewModelDelegate: NewsListViewModelDelegate ) {
+        
     }
     
     func fetchLatestNews() {

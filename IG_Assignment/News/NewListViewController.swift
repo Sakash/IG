@@ -5,8 +5,11 @@
 //  Created by Sakshi Jain on 09/12/21.
 //
 
-import Foundation
+import UIKit
 
-class NewListViewController {
+class NewListViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
