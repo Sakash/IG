@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49DB99EA316AB4C55D2AF35C /* libPods-IG_AssignmentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDA20653C128F891099130E /* libPods-IG_AssignmentUITests.a */; };
-		B81BCDCB27651430009D94A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81BCDCA27651430009D94A1 /* Info.plist */; };
+		B81BCDCC276517E3009D94A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81BCDCA27651430009D94A1 /* Info.plist */; };
 		B838E44F2762746A006FF24B /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838E44E2762746A006FF24B /* NewListViewController.swift */; };
 		B838E45227627536006FF24B /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838E45127627536006FF24B /* NewsListViewModel.swift */; };
 		B838E45A2763167F006FF24B /* DashboardNewsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838E4592763167F006FF24B /* DashboardNewsExtension.swift */; };
@@ -412,7 +412,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81BCDCB27651430009D94A1 /* Info.plist in Resources */,
+				B81BCDCC276517E3009D94A1 /* Info.plist in Resources */,
 				B8E34354276210A1009B46E7 /* LaunchScreen.storyboard in Resources */,
 				B8E34351276210A1009B46E7 /* Assets.xcassets in Resources */,
 				B8E3434F2762109D009B46E7 /* Main.storyboard in Resources */,
