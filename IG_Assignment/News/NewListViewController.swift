@@ -17,6 +17,6 @@ class NewListViewController: UIViewController, NewsListViewModelDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        viewModel = NewsListViewModel.init(viewModelDelegate: self)
+        viewModel = NewsListViewModel.init(viewModelDelegate: self, networkManager: NetworkManager())
     }
 }

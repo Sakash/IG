@@ -12,15 +12,16 @@ import Foundation
 
 class NewsListViewModel {
 
-    var networkManager: NetworkManager = NetworkManager()
+    var networkManager: NetworkManager?
     weak var viewModelDelegate: NewsListViewModelDelegate?
 
-    init(viewModelDelegate: NewsListViewModelDelegate ) {
+    init(viewModelDelegate: NewsListViewModelDelegate?, networkManager: NetworkManager ) {
+        self.networkManager = networkManager
         self.viewModelDelegate = viewModelDelegate
     }
     
     func fetchLatestNews() {
-        networkManager.getDashboardContent(page: 0) { response, error in
+        networkManager?.getDashboardContent(page: 0) { response, error in
             print(response as Any)
         }
     }
